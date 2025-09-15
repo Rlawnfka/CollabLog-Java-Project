@@ -9,17 +9,18 @@ body {
 /* 헤더 및 네비게이션 */
 .header {
   background-color: #007bff;
-  padding: 20px 40px;
+  padding: 10px 40px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .title {
   font-size: 24px;
   margin: 0;
+  flex:1;
 }
 
 .navbar ul {
