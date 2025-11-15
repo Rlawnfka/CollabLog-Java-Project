@@ -67,6 +67,7 @@ public class CollaLog extends JFrame {
         return panel;
     }
     
+    
     private JPanel createTaskPanel() {
         JPanel panel = new JPanel(new BorderLayout(5, 5));
         panel.setBorder(BorderFactory.createTitledBorder("업무 목록"));
